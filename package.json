@@ -1,0 +1,15 @@
+{
+  "name": "ramdomIdGenerator",
+  "version": "1.0.0",
+  "description": "Generate Random Ids and save them to a text file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen": "node index.js"
+  },
+  "author": "Thembani",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.4"
+  }
+}
