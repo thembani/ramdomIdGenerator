@@ -51,5 +51,5 @@ fs.writeFile(`${dir}/${fileName}.txt`, usedIds.join(", "), function(err){
     if(err){
         return console.log(err);
     }
-    console.log("The file was successfully saved. Name: fileName");
+    console.log(`The file was successfully saved. FileName: ${fileName}.txt`);
 })                 
